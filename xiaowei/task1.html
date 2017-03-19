@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>网站一级标题</h1>
+	<hr>
+	<ul>
+		<li><a href="#">导航链接一</a></li>
+		<li><a href="#">导航链接二</a></li>
+		<li><a href="#">导航链接三</a></li>
+		<li><a href="#">导航链接四</a></li>
+	</ul>
+	<h2>文章一级标题</h2>
+	<h3>文章二级标题</h3>
+	<p>文章作者&nbsp;文章发表时间</p>
+	<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了</p>
+	<p>这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，<strong>这里有个粗体字</strong>这是一个很长的段落，这是一个很长的段落，换行了</p>
+	<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+	<img src="images/1.png" />
+	<pre>
+		body {
+			color: red;
+		}
+	</pre>
+	<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了</p>
+	<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<strong>这里有个粗体字</strong>这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+	<h2>另一篇文章一级标题</h2>
+	<h3>文章二级标题</h3>
+	<p>作者：佚名&nbsp;时间：2017/03/20</p>
+	<div>这是一个长长的块级DIV段落。这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<strong>这里有个粗体字</strong>这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</div>
+	<img src="images\1.png" alt="这是一个图片" />
+	<blockquote>这是一段引用</blockquote>
+	<ul>
+		<li>无序列表一</li>
+		<li>无序列表二</li>
+		<li>无序列表三</li>
+	</ul>
+	<ol>
+		<li>有序列表一</li>
+		<li>有序列表二</li>
+		<li>有序列表三</li>
+	</ol>
+	<dl>
+		<li>定义列表一</li>
+		<li>定义列表二</li>
+		<li>定义列表三</li>
+	</dl>
+	<table border="1">
+		<tr>
+			<td>表头</td>
+			<td>表头</td>
+			<td>表头</td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>总计</td>
+			<td colspan="2">10000</td>
+		</tr>
+	</table>
+	<form action="">
+		<div>
+			<span><em>注册</em></span>
+		</div>
+		<div>
+			<span>用户名</span>
+			<input type="text" name="account" id="account" placeholder="请输入用户名">
+		</div>
+		<div>
+			<span>密码</span>
+			<input type="password" name="password" id="password" placeholder="请输入密码">
+		</div>
+		<div>
+			<input type="radio" id="sex_male" name="sex" value="male">
+			<label for="sex_male">男</label>
+			<input type="radio" id="sex_female" name="sex" value="female" checked="checked">
+			<label for="sex_female">女</label>
+		</div>
+		<div>
+			<span>城市：</span>
+			<select name="city" id="city">
+				<option value="Beijing">北京</option>
+				<option value="Shanghai">上海</option>
+				<option value="Xian" selected="true">西安</option>
+			</select>
+		</div>
+		<div>
+			<span>爱好：</span>
+			<input type="checkbox" name="habbit" id="sports"><label for="sports">运动</label>
+			<input type="checkbox" name="habbit" id="reading">
+			<label for="reading">阅读</label>
+			<input type="checkbox" name="habbit" id="swimming">
+			<label for="swimming">游泳</label>
+		</div>
+		<div>
+			<div>描述</div>
+			<textarea name="description" id="description" cols="30" rows="10" placeholder="这是一个多行文本域，请输入您的个人描述"></textarea>
+		</div>
+		<div>
+			<input type="submit" name="submit" value="提交">
+		</div>
+	</form>
+</body>
+</html>
