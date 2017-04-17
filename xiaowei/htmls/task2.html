@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>任务二：零基础HTML及CSS编码（一） | 小薇学院</title>
+
+	<link rel="stylesheet" type="text/css" href="..\stylesheets\task2.css">
+</head>
+<body>
+	<div id="webBanner">
+		<h1>网站一级标题</h1>
+		<ol>
+			<li><a href="#article1">导航链接一</a></li>
+			<li><a href="#article2">导航链接二</a></li>
+			<li><a href="#article3">导航链接三</a></li>
+			<li><a href="#article4">导航链接四</a></li>
+		</ol>
+	</div>
+	<article id="article1">
+		<h2>文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<h4>文章作者&nbsp;文章发表时间</h4>
+		<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了</p>
+		<p>这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，<strong>这里有个粗体字</strong>这是一个很长的段落，这是一个很长的段落，换行了</p>
+		<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+		<img src="..\images\1.png" />
+		<pre>
+pre {
+    background-color: #EEE;
+    color: green;
+}</pre>
+		<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了</p>
+		<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<strong>这里有个粗体字</strong>这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+	</article>
+	<article id="article2">
+		<h2>另一篇文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<h4>作者：佚名&nbsp;时间：2017/03/20</h4>
+		<div>这是一个长长的块级DIV段落。这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<strong>这里有个粗体字</strong>这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</div>
+		<img src="..\images\1.png" alt="这是一个图片" />
+		<blockquote>这是一段引用</blockquote>
+		<ul>
+			<li>无序列表一</li>
+			<li>无序列表二</li>
+			<li>无序列表三</li>
+		</ul>
+		<ol>
+			<li>有序列表一</li>
+			<li>有序列表二</li>
+			<li>有序列表三</li>
+		</ol>
+	</article>
+	<article id="article3">
+		<h2>最后一篇文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<h4>作者：佚名&nbsp;时间：2017/04/18</h4>
+		<dl>
+			<li>定义列表一</li>
+			<li>定义列表二</li>
+			<li>定义列表三</li>
+		</dl>
+		<table>
+			<tr>
+				<td>表头</td>
+				<td>表头</td>
+				<td>表头</td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>总计</td>
+				<td colspan="2">10000</td>
+			</tr>
+		</table>
+	</article>
+	<article id="article4">
+		<h2>这里以后是个侧栏，这是侧栏的标题</h2>
+		<form action="">
+			<div class="title">
+				<span><em>注册</em></span>
+			</div>
+			<table>
+				<tbody>
+					<tr>
+						<td>用户名</td>
+						<td><input type="text" name="account" id="account" placeholder="请输入用户名"></td>
+					</tr>
+					<tr>
+						<td>密码</td>
+						<td><input type="password" name="password" id="password" placeholder="请输入密码"></td>
+					</tr>
+					<tr>
+						<td>性别</td>
+						<td>
+							<input type="radio" id="sex_male" name="sex" value="male">
+							<label for="sex_male">男</label>
+							<input type="radio" id="sex_female" name="sex" value="female" checked="checked">
+							<label for="sex_female">女</label>
+						</td>
+					</tr>
+					<tr>
+						<td>城市</td>
+						<td>
+							<select name="city" id="city">
+								<option value="Beijing">北京</option>
+								<option value="Shanghai">上海</option>
+								<option value="Xian" selected="true">西安</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>爱好</td>
+						<td>
+							<input type="checkbox" name="habbit" id="sports">
+							<label for="sports">运动</label>
+							<input type="checkbox" name="habbit" id="reading">
+							<label for="reading">阅读</label>
+							<input type="checkbox" name="habbit" id="swimming">
+							<label for="swimming">游泳</label>
+						</td>
+					</tr>
+					<tr>
+						<td>描述</td>
+						<td>
+							<textarea name="description" id="description" cols="30" rows="10" placeholder="这是一个多行文本域，请输入您的个人描述"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+			<div>
+				<input type="submit" name="submit" value="提交">
+			</div>
+		</form>
+	</article>
+</body>
+</html>
