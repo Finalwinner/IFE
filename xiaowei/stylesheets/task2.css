@@ -1,0 +1,158 @@
+/*
+* @Author: Sophie
+* @Date:   2017-04-17 23:18:23
+* @Last Modified by:   Sophie
+* @Last Modified time: 2017-04-18 01:45:59
+*/
+* {
+    box-sizing: border-box;
+    font-family: 'Microsoft Yahe';
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #CCC;
+}
+
+article {
+    background-color: #FFF;
+    border: 2px solid #BBB;
+    box-shadow: 2px 2px 0px #999;
+    margin: 20px;
+    padding: 20px;
+}
+
+article h2 {
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+article h3 {
+    color: #AAA;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+article h4 {
+    color: #CCC;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+article ul, article ol, article dl {
+    margin: 10px 0px 10px 40px;
+}
+
+article ol li {
+    list-style-type: lower-alpha;
+}
+
+pre {
+    background-color: #EEE;
+    color: green;
+}
+
+blockquote {
+    background-color: #CCF;
+}
+
+form div {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+#article3 table {
+    border: 1px solid #DDD;
+}
+
+#article3 table tr td {
+    padding: 2px;
+}
+
+#article3 table tr:first-child {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#article3 table tr:last-child {
+    background-color: #EEE;
+    font-weight: bold;
+}
+
+#article4 table tr td:first-child {
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+#article4 table tr td {
+    padding: 5px 10px;
+}
+
+#article4 table input, #article4 table select {
+    height: 24px;
+    vertical-align: bottom;
+}
+
+#article4 textarea {
+    height: 120px;
+    width: 80%;
+}
+
+#article4 div input {
+    width: 100%;
+    background-color: #55F;
+    color: white;
+    height: 32px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+#article4 div.title span {
+    font-size: 24px;
+    color: #55F;
+    font-weight: bold;
+}
+
+#webBanner {
+    background-color: #000;
+    padding: 10px;
+}
+
+#webBanner h1 {
+    background-color: #000;
+    color: #F00;
+}
+
+#webBanner ol {
+    background-color: transparent;
+    margin: 10px 0px;
+    padding-left: 40px; 
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+#webBanner ol li {
+    color: #00F;
+    padding: 2px 5px;
+}
+
+#webBanner ol li a {
+    color: #00F;
+    text-decoration: none;
+}
+
+#article4 h2 {
+    border-left: 4px solid #CCC;
+    padding: 10px;
+    font-size: 20px;
+}
