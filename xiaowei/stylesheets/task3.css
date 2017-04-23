@@ -2,7 +2,7 @@
 * @Author: Sophie
 * @Date:   2017-04-23 16:02:16
 * @Last Modified by:   Sophie
-* @Last Modified time: 2017-04-23 16:53:01
+* @Last Modified time: 2017-04-23 17:13:43
 */
 * {
     box-sizing: border-box;
@@ -46,4 +46,9 @@ span {
 a img {
     width: 80px;
     height: 80px;
+    margin-top: 20px;
+}
+
+a:nth-child(1) img {
+    margin-top: 0px; 
 }
